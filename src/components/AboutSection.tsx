@@ -3,39 +3,33 @@ import { Code, Users, Lightbulb, Trophy, Laptop, Globe } from "lucide-react";
 const activities = [
   {
     icon: Code,
+    title: "Code Camps",
+    description: "Intensive one-week programs to learn new programming languages, frameworks, and tools.",
+    items: ["Python Fundamentals", "Web development", "Java basics", "Advanced Python & Machine Learning"],
+  },
+  {
+    icon: Trophy,
+    title: "Hackathons",
+    description: "Compete in 24-48 hour events to build real projects and win prizes, with mentorship and team formation support.",
+    items: ["Local hackathons", "Training sessions", "Internal club hackathons", "Team formation help"],
+  },
+  {
+    icon: Users,
     title: "Coding Workshops",
     description: "Hands-on sessions covering Python, Java, web development, and more — for all skill levels.",
     items: ["Python for beginners", "Java fundamentals", "Full-stack web dev", "Data structures & algorithms"],
   },
   {
-    icon: Trophy,
-    title: "Hackathons",
-    description: "Compete in 24-48 hour events to build real projects, win prizes, and meet industry professionals.",
-    items: ["Local hackathons", "MLH-affiliated events", "Internal club hackathons", "Team formation help"],
-  },
-  {
-    icon: Users,
-    title: "Networking",
-    description: "Connect with fellow students, alumni, and tech industry professionals at our events.",
-    items: ["Industry guest speakers", "Alumni mentorship", "Study groups", "Peer programming"],
-  },
-  {
-    icon: Lightbulb,
-    title: "Project Labs",
-    description: "Collaborate on open-source and personal projects with teammates across disciplines.",
-    items: ["Open-source contributions", "Club app projects", "Portfolio building", "Code reviews"],
-  },
-  {
     icon: Laptop,
     title: "Competitions",
     description: "Sharpen your skills in competitive programming and coding challenges.",
-    items: ["LeetCode challenges", "ICPC preparation", "Coding competitions", "Mock interviews"],
+    items: ["USACO training", "Codeforces practice", "Guided practice sessions"],
   },
   {
-    icon: Globe,
-    title: "Community & Outreach",
-    description: "Give back by teaching CS concepts to younger students and participating in community events.",
-    items: ["K-12 outreach programs", "Campus CS fairs", "Tech for good projects", "Social events & game nights"],
+    icon: Lightbulb,
+    title: "AP CSA & AP CSP Preparation",
+    description: "Get ready for your Advanced Placement Computer Science exams with our specialized preparation sessions.",
+    items: ["AP CSA review", "AP CSP concepts", "Practice problems", "Exam strategies"],
   },
 ];
 

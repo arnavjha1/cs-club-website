@@ -29,8 +29,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          The Computer Science Club is your gateway to coding workshops, hackathons,
-          and a passionate community of developers. No experience required.
+          The Computer Science Club is your gateway to coding workshops, hackathons, code camps
+          and a passionate community of developers.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -51,9 +51,9 @@ const HeroSection = () => {
         {/* Stats row */}
         <div className="mt-16 grid grid-cols-3 gap-6 max-w-xl mx-auto">
           {[
-            { value: "200+", label: "Members" },
-            { value: "15+", label: "Workshops / Year" },
-            { value: "3+", label: "Hackathons" },
+            { value: "50+", label: "Members" },
+            { value: "750+", label: "Students Taught" },
+            { value: "5+", label: "Events Hosted / Year" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-gradient">{stat.value}</div>

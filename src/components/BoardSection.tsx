@@ -2,40 +2,50 @@ import presidentImg from "@/assets/board-president.jpg";
 import vpImg from "@/assets/board-vp.jpg";
 import treasurerImg from "@/assets/board-treasurer.jpg";
 import secretaryImg from "@/assets/board-secretary.jpg";
+import clubManagerImg from "@/assets/arnav_pic.jpg";
 import { Github, Linkedin } from "lucide-react";
 
 const boardMembers = [
   {
-    name: "Aisha Nguyen",
+    name: "Anshul Raghav",
     role: "President",
-    major: "Computer Science, Senior",
+    major: "Junior",
     bio: "Passionate about making CS accessible to all students. Loves machine learning and competitive programming.",
     image: presidentImg,
     github: "#",
     linkedin: "#",
   },
   {
-    name: "Marcus Rivera",
+    name: "Avyank Niraj",
     role: "Vice President",
-    major: "Computer Science, Junior",
+    major: "Junior",
     bio: "Full-stack developer and hackathon enthusiast. Leads our web development workshops.",
     image: vpImg,
     github: "#",
     linkedin: "#",
   },
   {
-    name: "Kevin Chen",
-    role: "Treasurer",
-    major: "CS & Math, Junior",
+    name: "Arnav Jha",
+    role: "Club Manager & Public Relations",
+    major: "Junior",
+    bio: "Manages club operations and events. Passionate about building a strong CS community. Interested in software engineering and tech outreach.",
+    image: clubManagerImg,
+    github: "https://github.com/arnavjha1",
+    linkedin: "https://www.linkedin.com/in/arnav-jha-788298361/",
+  },
+  {
+    name: "Vibhas Bhaskar",
+    role: "Secretary",
+    major: "Sophomore",
     bio: "Manages club finances and sponsors. Interested in algorithms and quantitative finance.",
     image: treasurerImg,
     github: "#",
     linkedin: "#",
   },
   {
-    name: "Sofia Park",
-    role: "Secretary",
-    major: "Computer Science, Sophomore",
+    name: "Eric Guo",
+    role: "Treasurer & Event Coordinator",
+    major: "Junior",
     bio: "Coordinates events and communications. Passionate about UX design and Python development.",
     image: secretaryImg,
     github: "#",
@@ -54,7 +64,7 @@ const BoardSection = () => {
             Meet the <span className="text-gradient">Board</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Your club is run by dedicated students who are passionate about building a great CS community.
+            This club is run by dedicated students who are passionate about building a great CS community.
           </p>
         </div>
 
